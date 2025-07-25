@@ -1,4 +1,5 @@
 defmodule RawSingleBehaviour do
+  @moduledoc false
   @behaviour TestBehaviorA
 
   @impl TestBehaviorA
@@ -9,6 +10,7 @@ defmodule RawSingleBehaviour do
 end
 
 defmodule RawMultipleBehaviour do
+  @moduledoc false
   @behaviour TestBehaviorA
   @behaviour TestBehaviorB
 
@@ -26,6 +28,7 @@ defmodule RawMultipleBehaviour do
 end
 
 defmodule BehaveSingleModule do
+  @moduledoc false
   use WellBehaved
 
   @behave TestBehaviorA
@@ -38,6 +41,7 @@ defmodule BehaveSingleModule do
 end
 
 defmodule BehaveMultipleModule do
+  @moduledoc false
   use WellBehaved
 
   @behave TestBehaviorA
@@ -57,6 +61,7 @@ defmodule BehaveMultipleModule do
 end
 
 defmodule BehaveOptionalModule do
+  @moduledoc false
   use WellBehaved
 
   @behave OptionalCallbackBehavior
@@ -66,6 +71,7 @@ defmodule BehaveOptionalModule do
 end
 
 defmodule BehaveGenServerModule do
+  @moduledoc false
   use WellBehaved
 
   @behave GenServer

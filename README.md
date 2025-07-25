@@ -5,11 +5,6 @@
 </p>
 
 <p align="center">
-  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with the trade-off of having to <code>use WellBehaved</code>).
-</p>
-
-
-<p align="center">
   <a href="https://hex.pm/packages/well_behaved">
     <img alt="Hex Version" src="https://img.shields.io/hexpm/v/well_behaved.svg">
   </a>
@@ -33,8 +28,13 @@
 <a href="https://mastodon.social/@scrum_log" target="_blank" rel="noopener noreferrer">
     <img alt="Mastodon Follow" src="https://img.shields.io/badge/mastodon-%40scrum__log%40mastodon.social-purple?color=6364ff">
   </a>
-
 </p>
+
+<p align="center">
+  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with a <code>use</code> trade-off).
+</p>
+
+
 
 ## Installation
 
@@ -75,10 +75,11 @@ end
 
 ## Why?
 
-1. [Behaviours](https://hexdocs.pm/elixir/1.4.5/behaviours.html) in Elixir are super cool
-2. They use the UK spelling
+1. [Elixir Behaviours](https://hexdocs.pm/elixir/1.4.5/behaviours.html) are super cool
+2. It uses the UK spelling
 3. Of all the UK spellings my brain accepts, *behaviour* is not one of them.
     - Every time I sound out *be-hav-i-our* ... phonetically.
+    - [It's not even french](https://en.wiktionary.org/wiki/behavior#Etymology)
 
 
 
