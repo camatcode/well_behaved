@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with the trade-off of having to <code>use WellBehaved</code>).
+  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with a <code>use</code> trade-off).
 </p>
 
 
@@ -75,10 +75,11 @@ end
 
 ## Why?
 
-1. [Behaviours](https://hexdocs.pm/elixir/1.4.5/behaviours.html) in Elixir are super cool
-2. They use the UK spelling
+1. [Elixir Behaviours](https://hexdocs.pm/elixir/1.4.5/behaviours.html) are super cool
+2. It uses the UK spelling
 3. Of all the UK spellings my brain accepts, *behaviour* is not one of them.
     - Every time I sound out *be-hav-i-our* ... phonetically.
+    - [It's not even french](https://en.wiktionary.org/wiki/behavior#Etymology)
 
 
 
