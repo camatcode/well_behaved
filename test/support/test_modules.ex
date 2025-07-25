@@ -80,8 +80,4 @@ defmodule BehaveGenServerModule do
   def init(state), do: {:ok, state}
   @impl GenServer
   def handle_call(:get, _from, state), do: {:reply, state, state}
-  @impl GenServer
-  def handle_cast(_msg, state), do: {:noreply, state}
-  @impl GenServer
-  def handle_info(_msg, state), do: {:noreply, state}
 end
