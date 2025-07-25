@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img alt="wb logo" src="https://raw.githubusercontent.com/camatcode/well_behaved/refs/heads/main/assets/well-behaved-banner.png">
+    <img alt="wb logo" src="https://github.com/camatcode/well_behaved/blob/main/assets/well-behaved-banner.png">
   </picture>
 </p>
 
@@ -79,7 +79,7 @@ end
 2. It uses the UK spelling
 3. Of all the UK spellings my brain accepts, *behaviour* is not one of them.
     - Every time I sound out *be-hav-i-our* ... phonetically.
-    - [It's not even french](https://en.wiktionary.org/wiki/behavior#Etymology)
+    - It's not a borrowing [from Old French](https://en.wiktionary.org/wiki/behavior#Etymology)
 
 
 
