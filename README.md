@@ -56,7 +56,10 @@ defmodule MyModule do
 
   @behave TestBehaviorA
 
+  @impl TestBehaviorA
   def test_a, do: :ok
+
+  @impl TestBehaviorA
   def function_a(arg), do: {:hello, arg}
 end
 ```
@@ -67,7 +70,10 @@ Instead of:
 defmodule MyModule do
   @behaviour TestBehaviorA
 
+  @impl TestBehaviorA
   def test_a, do: :ok
+
+  @impl TestBehaviorA
   def function_a(arg), do: {:hello, arg}
 end
 ```
