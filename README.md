@@ -1,4 +1,52 @@
-A silly library that lets you use `@behave` instead of `@behaviour` (with the trade-off of having to `use WellBehaved`).
+<p align="center">
+  <picture>
+    <img alt="wb logo" src="https://raw.githubusercontent.com/camatcode/well_behaved/refs/heads/main/assets/well-behaved-banner-logo.png">
+  </picture>
+</p>
+
+<p align="center">
+  A silly library that lets you use `@behave` instead of `@behaviour` (with the trade-off of having to `use WellBehaved`).
+</p>
+
+
+<p align="center">
+  <a href="https://hex.pm/packages/well_behaved">
+    <img alt="Hex Version" src="https://img.shields.io/hexpm/v/well_behaved.svg">
+  </a>
+
+  <a href="https://hexdocs.pm/well_behaved">
+    <img alt="Hex Docs" src="http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat">
+  </a
+  -->
+
+  <a href="https://opensource.org/licenses/Apache-2.0">
+    <img alt="Apache 2 License" src="https://img.shields.io/hexpm/l/oban">
+  </a>
+
+  <a href="https://github.com/camatcode/well_behaved/actions?query=branch%3Amain++">
+    <img alt="ci status" src="https://github.com/camatcode/well_behaved/workflows/ci/badge.svg">
+  </a>
+  <a href='https://coveralls.io/github/camatcode/well_behaved?branch=main'>
+    <img src='https://coveralls.io/repos/github/well_behaved/basenji/badge.svg?branch=main' alt='Coverage Status' />
+  </a>
+
+<a href="https://mastodon.social/@scrum_log" target="_blank" rel="noopener noreferrer">
+    <img alt="Mastodon Follow" src="https://img.shields.io/badge/mastodon-%40scrum__log%40mastodon.social-purple?color=6364ff">
+  </a>
+
+</p>
+
+## Installation
+
+```elixir
+def deps do
+  [
+    {:well_behaved, "~> 1.0"}
+  ]
+end
+```
+
+## Example
 
 You can use:
 
@@ -25,20 +73,12 @@ end
 ```
 
 
-## Installation
-
-```elixir
-def deps do
-  [
-    {:well_behaved, "~> 0.1.0"}
-  ]
-end
-```
-
-
 ## Why?
 
-Just needed to code something after being frustrated by my American mind having to sound out `be-hav'-i-our`.
+1. [Behaviours](https://hexdocs.pm/elixir/1.4.5/behaviours.html) in Elixir are super cool
+2. They use the UK spelling
+3. Of all the UK spellings my brain accepts, *behaviour* is not one of them.
+    - Every time I sound out *be-hav-i-our* ... phonetically.
 
 
 
