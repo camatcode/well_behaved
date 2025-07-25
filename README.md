@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <img alt="wb logo" src="https://raw.githubusercontent.com/camatcode/well_behaved/refs/heads/main/assets/well-behaved-banner-logo.png">
+    <img alt="wb logo" src="https://raw.githubusercontent.com/camatcode/well_behaved/refs/heads/main/assets/well-behaved-banner.png">
   </picture>
 </p>
 
