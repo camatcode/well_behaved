@@ -5,11 +5,6 @@
 </p>
 
 <p align="center">
-  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with the trade-off of having to <code>use WellBehaved</code>).
-</p>
-
-
-<p align="center">
   <a href="https://hex.pm/packages/well_behaved">
     <img alt="Hex Version" src="https://img.shields.io/hexpm/v/well_behaved.svg">
   </a>
@@ -33,8 +28,13 @@
 <a href="https://mastodon.social/@scrum_log" target="_blank" rel="noopener noreferrer">
     <img alt="Mastodon Follow" src="https://img.shields.io/badge/mastodon-%40scrum__log%40mastodon.social-purple?color=6364ff">
   </a>
-
 </p>
+
+<p align="center">
+  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with the trade-off of having to <code>use WellBehaved</code>).
+</p>
+
+
 
 ## Installation
 
