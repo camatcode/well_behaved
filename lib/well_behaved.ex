@@ -1,7 +1,5 @@
 defmodule WellBehaved do
-  @moduledoc """
-  A silly library that lets you use `@behave` instead of `@behaviour`.
-  """
+  @moduledoc "README.md" |> File.read!() |> String.replace("(#", "(#module-")
   defmacro __using__(_opts) do
     quote do
       import WellBehaved
@@ -14,7 +12,6 @@ defmodule WellBehaved do
   defmacro __before_compile__(env) do
     behaviors = Module.get_attribute(env.module, :behave) || []
 
-    # Simply convert each @behave to @behaviour
     for behavior_module <- behaviors do
       quote do
         @behaviour unquote(behavior_module)

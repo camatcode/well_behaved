@@ -9,6 +9,18 @@ defmodule WellBehavedTest do
       assert raw_behaviors == behave_behaviors
       assert TestBehaviorA in behave_behaviors
     end
+
+    test "multi behaviour" do
+      assert {:raw_a, "a"} == RawMultipleBehaviour.function_a("a")
+      assert {:raw_b, "b"} == RawMultipleBehaviour.function_b("b")
+      assert :ok == RawMultipleBehaviour.test_a()
+      assert :ok == RawMultipleBehaviour.test_b()
+
+      assert {:behave_a, "a"} == BehaveMultipleModule.function_a("a")
+      assert {:behave_b, "b"} == BehaveMultipleModule.function_b("b")
+      assert :ok == BehaveMultipleModule.test_a()
+      assert :ok == BehaveMultipleModule.test_b()
+    end
   end
 
   describe "functionality" do

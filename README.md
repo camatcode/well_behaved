@@ -1,5 +1,3 @@
-# WellBehaved
-
 A silly library that lets you use `@behave` instead of `@behaviour` (with the trade-off of having to `use WellBehaved`).
 
 You can use:
@@ -40,7 +38,7 @@ end
 
 ## Why?
 
-Just needed to code something after being frustrated by my American mind having to spell out `be-hav'-e-our`.
+Just needed to code something after being frustrated by my American mind having to sound out `be-hav'-e-our`.
 
 
 
