@@ -75,7 +75,7 @@ end
 
 ## Why?
 
-1. [Elixir Behaviours](https://hexdocs.pm/elixir/1.4.5/behaviours.html) are super cool
+1. [Elixir Behaviours](https://hexdocs.pm/elixir/1.18.4/typespecs.html#behaviours) are super cool
 2. It uses the UK spelling
 3. Of all the UK spellings my brain accepts, *behaviour* is not one of them.
     - Every time I sound out *be-hav-i-our* ... phonetically.
