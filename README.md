@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  A silly library that lets you use `@behave` instead of `@behaviour` (with the trade-off of having to `use WellBehaved`).
+  A silly library that lets you use <code>@behave</code> instead of <code>@behaviour</code> (with the trade-off of having to <code>use WellBehaved</code>).
 </p>
 
 
